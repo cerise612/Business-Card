@@ -1,0 +1,64 @@
+body {
+  background-color: rebeccapurple;
+  background: url("assets/images/background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-height: 100%;
+  max-width: 100%;
+  font-family: "Quicksand", sans-serif;
+}
+#wrapper {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 10% 20% 10% 20% 20% 10%;
+  justify-items: center;
+}
+#me {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  border-radius: 100%;
+}
+#header {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+h2 {
+  font-weight: bolder;
+}
+#email {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 4;
+}
+#links {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 5;
+  grid-row-end: 5;
+}
+#logo {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 6;
+  grid-row-end: 6;
+}
+#qrc {
+  grid-column-start: 5;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 6;
+}
+/* media queries */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+}
